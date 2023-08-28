@@ -1,0 +1,127 @@
+body 
+{
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    color: black;
+    
+    background-image: url("../images/sky_doodle.png"), linear-gradient(to right, rgba(3, 32, 128, 1), rgba(0, 133, 199, 1), rgba(3, 32, 128, 1));
+    /* <a href="https://lovepik.com/images/png-cartoon-lines.html">Cartoon Lines Png vectors by Lovepik.com</a> |Image from this source| */
+}
+body img
+{
+    width: 100%;
+}
+.weather-block 
+{
+    display: inline-block;
+    width: 55px; /* Adjust width and spacing as needed */
+    height: 115px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color:transparent;
+    position:relative;
+}
+.weather-red 
+{
+    background: linear-gradient(to bottom, #ff5e6c 50%, #e1b382 55%), 
+        linear-gradient(to bottom, transparent 70%, #e1b382 70%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);    
+}
+h1
+{
+    font-family:SpaceGrotesk-Light;
+    color:#ffffff;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 64px;
+    
+    margin-bottom: 20px;
+}
+.descption-top
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.whole-block
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.city_select
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.date 
+{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 9px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    color: #ffffff;
+
+}
+.images 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.images img 
+{
+    width: 45px; 
+    height: 40px;
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto;
+
+}
+.weather-type 
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: 6px;  
+}
+
+.temp-value 
+{
+    font-size: 9px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    color: #781a44;
+    
+}
+
+.copyright
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    text-align: center; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image doesn't exceed the screen width */
+    overflow: hidden;
+
+}
+.copyright img
+{
+    width: 100%; /* Make the image take up the full width of its container */
+    height: auto; /* Automatically adjust the image's height to maintain its aspect ratio */
+    display: block;
+}
